@@ -191,5 +191,5 @@ function tryCommand(command) {
 	
 	//alert($('#command'));
 	//alert(this);
-}
+});
 
