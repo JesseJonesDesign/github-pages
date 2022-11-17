@@ -1,6 +1,3 @@
-
-
-
 var chapters = {};
 
 chapters.ohno = {};
@@ -191,5 +188,4 @@ function tryCommand(command) {
 	
 	//alert($('#command'));
 	//alert(this);
-}
-
+});
