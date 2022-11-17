@@ -1,4 +1,4 @@
-main();
+
 
 
 var chapters = {};
@@ -9,8 +9,8 @@ chapters.ohno.choices = [];
 chapters.ohno.choices.push({inputs:["tell", "warn", "say", "explain", "help", "situation"], chapter:"telltale"});
 chapters.ohno.choices.push({inputs:["run", "chase", "catch", "creep", "follow"], chapter:"pushher"});
 chapters.ohno.choices.push({inputs:["fight", "attack", "charge", "battle", "hit", "strike", "punch", "kick", "kill", "knife", "throw", "dash", "chuck", "dagger", "stab"], chapter:"throwknife"});
-chapters.ohno.choices.push({inputs:["stab seb", "kill seb", "knife seb"]});
-chapters.ohno.choices.push({inputs:["shout", "call", "scream"]});
+chapters.ohno.choices.push({inputs:["stab seb", "kill seb", "knife seb"]})
+chapters.ohno.choices.push({inputs:["shout", "call", "scream"]})
 
 chapters.telltale = {};
 chapters.telltale.description = "'She's going to do it Seb', by the time you finish explaining she's already made it through the entrance. You run into the corridor with Seb, Elise is clutching the gun, holding it to a Tye's head, heart beating out of your chest you scream 'STOP', she hears you, she stops, but turns the gun towards you, she takes a shot, it misses. You're screaming at her for her to drop the gun, but she's just standing there. You hear sirens, her eyes widen, she drops the gun and runs up the stairs. You turn to Seb, a red blood stain soaking through his white cotton shirt, he drops to his knees beside you. Four Officers burst though the school doors, it's too late. They find her body by the bike sheds, she jumped out of a fourth story window.The impact of the fall broke most of the bones in her body, entangled. You lost the fight. You burn the photo, no one will ever know the truth.<b>START AGAIN</b>to re-write history...";
@@ -192,3 +192,4 @@ function tryCommand(command) {
 	//alert($('#command'));
 	//alert(this);
 }
+
